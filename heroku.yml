@@ -2,4 +2,4 @@ build:
   docker:
     worker: Dockerfile
   run:
-    worker: /Essential-Files/entrypoint.sh
+    worker: bash Essential-Files/entrypoint.sh
